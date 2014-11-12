@@ -2,7 +2,7 @@ class Balanced{
 	
 	//4.1 check if a binary tree is balanced!!!definition is for each node, the two subtrees differ in height by no more than one!!
 	
-	public static int getHeight() {
+	public static int getHeight(TreeNode root) {
 		if (root == null) {
 			return 0;//base case
 		}
